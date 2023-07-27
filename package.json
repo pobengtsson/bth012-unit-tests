@@ -1,0 +1,36 @@
+{
+  "name": "bth012-unit-tests",
+  "version": "1.0.0",
+  "description": "A small node.js project with some code and some jest unit tests.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "watch": "NODE_OPTIONS=--experimental-vm-modules npx jest --watch",
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pobengtsson/bth012-unit-tests.git"
+  },
+  "keywords": [
+    "bth012",
+    "unit",
+    "test",
+    "jest"
+  ],
+  "author": "Per-Olof Bengtsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pobengtsson/bth012-unit-tests/issues"
+  },
+  "homepage": "https://github.com/pobengtsson/bth012-unit-tests#readme",
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^27.2.3",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "jest": "^29.6.2"
+  }
+}
